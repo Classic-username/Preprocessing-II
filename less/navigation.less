@@ -1,5 +1,21 @@
 // Navigation Styles here
 .container-nav {
+    @media @mobile {
+        display: flex;
+        .nav-nav {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            nav {
+                display: flex;
+                justify-content: center;
+            }
+            * {
+                width: 100%;
+            }
+        }
+    }
+        
     width: 100%;
     border-bottom: 2px dashed @silver;
     display: flex;
@@ -16,7 +32,6 @@
             width: 47%;
         }
         nav {
-            text-align: right;
             margin-right: 17px;
             
             a {
