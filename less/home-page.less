@@ -65,6 +65,19 @@
     display: flex;
     justify-content: space-between;
 
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      .custom-button(200px, darken(@eastern-blue, 10%), 1.8rem);
+      &:hover {
+        background: @eastern-blue;
+        cursor: pointer;
+      }
+    }
+
     .destination {
       width: 30%;
       margin-bottom: 30px;

@@ -170,7 +170,7 @@ img {
 }
 .container-nav {
   width: 100%;
-  border-bottom: 2px dashed silver;
+  border-bottom: 2px dashed #C0C0C0;
   display: flex;
   justify-content: center;
   padding: 25px 0;
@@ -258,6 +258,22 @@ img {
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
+}
+.home .content-pick .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  width: 200px;
+  background: #117a8b;
+  font-size: 1.8rem;
+  height: 45px;
+  border-radius: 15px;
+}
+.home .content-pick .btn:hover {
+  background: #17A2B8;
+  cursor: pointer;
 }
 .home .content-pick .destination {
   width: 30%;
